@@ -48,7 +48,7 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-8 text-center text-gray-500 text-sm">
-          <p>Powered by Groq AI • Your health companion through every phase</p>
+          <p>Your health companion through every phase</p>
         </footer>
       </div>
     </div>
