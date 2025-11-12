@@ -1,0 +1,27 @@
+{
+  "name": "womens-health-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Women's Health AI Assistant",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["health", "ai", "womens-health"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "groq-sdk": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
