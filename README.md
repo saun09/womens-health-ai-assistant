@@ -56,7 +56,7 @@ rove/
     └── package.json
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -112,7 +112,7 @@ rove/
    ```
    App runs on http://localhost:5173
 
-## 🎨 Menstrual Cycle Phases
+## Menstrual Cycle Phases
 
 The app supports four cycle phases, each with unique theming:
 
@@ -121,7 +121,7 @@ The app supports four cycle phases, each with unique theming:
 - **Ovulation** (Days 14-16): Pink/purple theme, Sparkles icon
 - **Luteal** (Days 17-28): Blue/indigo theme, Moon icon
 
-## 🤖 AI Integration
+## AI Integration
 
 The application uses **Groq AI** with the Llama 3.3 70B model for generating responses. Advanced prompt engineering ensures:
 
@@ -130,21 +130,14 @@ The application uses **Groq AI** with the Llama 3.3 70B model for generating res
 - Personalized health tips considering symptoms + phase
 - Warm, empathetic, and supportive tone
 
-## 📝 API Endpoints
+##  API Endpoints
 
 - `POST /api/quotes` - Generate wellness quote for a phase
 - `POST /api/health-tips` - Get health tip for a symptom and phase
 - `GET /api/health` - Health check endpoint
 
-## 🔒 Security Features
 
-- Helmet.js for HTTP headers security
-- CORS configuration
-- Rate limiting (100 requests per 15 minutes)
-- Input validation middleware
-- Environment variable protection
-
-## 📦 Dependencies
+##  Dependencies
 
 ### Backend
 - express
@@ -162,7 +155,7 @@ The application uses **Groq AI** with the Llama 3.3 70B model for generating res
 - tailwindcss
 - vite
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### Unique Quote Generation
 Each quote request includes:
@@ -179,25 +172,4 @@ The entire UI adapts based on selected phase:
 - Icon colors
 - Card styling
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-Built with ❤️ for women's health and wellness
-
-## 🙏 Acknowledgments
-
-- Groq AI for providing free API access
-- Lucide for beautiful icons
-- Tailwind CSS for amazing utility classes
-
----
-
-**Note**: This application provides general wellness information and should not replace professional medical advice.
 
